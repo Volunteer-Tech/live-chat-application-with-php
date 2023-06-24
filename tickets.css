@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+.main-div {
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    margin-top: 20px;
+}
+.t-link {
+    text-decoration: none;
+    display: flex;
+}
+.user-button {
+	color: white;
+	background-color: #317699;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0;
+    transition: .2s;
+}
+.user-button:hover {
+    background: #053349;
+}
+.secondary-div {
+    background: #2e2f31;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    transition: background-color .3s;
+}
+.secondary-div:hover {
+    background: rgb(111, 130, 138);
+    cursor: pointer;
+}
+#err_message {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    font-size: 18px;
+    background: #36393f;
+}
+#opened {
+    border-radius: 10px;
+    background-color: #05822f;
+    padding: 7.5px;
+    color: white;
+    margin-right: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p, h1 {
+    margin: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+#ticket_id {
+    margin: 0;
+    margin-right: 5px;
+}
