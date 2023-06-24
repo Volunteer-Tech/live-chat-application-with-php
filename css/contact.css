@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+body {
+    font-size: 18px;
+    text-align: center;
+    background: #36393f;
+}
+.user-button {
+	color: white;
+	background-color: #317699;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0;
+    transition: .2s;
+}
+.input {
+    margin: 10px 0;
+}
+.user-button:hover {
+    background: #053349;
+}
+#show_admins {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+h4 {
+    margin-bottom: 0;
+    color: white;
+}
+.admin-card {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .3s background;
+}
+.admin-card:hover {
+    background-color: rgb(68, 89, 95);
+}
+#admin-photo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+#admin-name {
+    color: white;
+}
+a {
+	text-decoration: none;
+	color: #099bd5;
+    transition: .2s;
+}
+a:hover {
+	color: #4a43d1;
+    text-decoration: underline;
+}
+.user-error {
+	color: lightgrey;
+	text-shadow: 0 0 1px #d12850;
+}
+.user-input {
+    border-radius: 5px;
+    padding: 7px;
+    border: 2px solid white;
+    width: 300px;
+    transition: .3s;
+    font-size: 15px;
+    background: #313339;
+    color: white;
+    box-shadow: none;
+}
+h1, p {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.user-input:focus {
+    outline-offset: 0px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid black;
+}
+textarea {
+    height: 125px;
+}
+@media only screen and (max-width: 1000px) {
+    * {
+        text-align: center;
+    }
+}
