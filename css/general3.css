@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+.user-button {
+	color: white;
+	background-color: #317699;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0;
+    transition: .2s;
+}
+.user-button:hover {
+    background: #053349;
+}
+a {
+	text-decoration: none;
+	color: #099bd5;
+    transition: .2s;
+}
+a:hover {
+	color: #4a43d1;
+    text-decoration: underline;
+}
+.user-error {
+	color: lightgrey;
+	text-shadow: 0 0 1px #d12850;
+}
+.user-input {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 250px;
+    transition: .3s;
+    font-size: 15px;
+    background: rgba(0,0,0,0.25);
+    border: 1px solid white;
+    color: white;
+    box-shadow: none;
+}
+.user-input:focus {
+    outline-offset: 0px;
+    outline: none;
+    background: rgba(0,0,0,0.5);
+    box-shadow: none;
+}
+body {
+    color:white;
+    font-size: 18px;
+    background-image: url(../logos/loginBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+* {
+    margin: 0;
+}
+::placeholder {
+    color: white;
+}
+.custom-file-upload {
+    background: rgba(0,0,0,0.25);
+    display: inline-block;
+    padding: 6px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.custom-file-upload:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+#menu {
+    background: rgb(54, 57, 63, 0.1);
+    backdrop-filter: blur(9px);
+    padding: 20px;
+    border-radius: 10px;
+}
+.wrapper {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+@media (max-width: 1000px) {
+    * {
+        text-align:center;
+    }
+}
