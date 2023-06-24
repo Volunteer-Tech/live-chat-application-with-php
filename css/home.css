@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    font-size:18px;
+    background: #36393f;
+}
+.uniquer-class {
+    display: none;
+}
+#err_message {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#press_to_send {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#delete-text-x {
+    color: white;
+}
+.actiontext {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.home-page {
+    width: auto; 
+    max-width: 500px;
+    margin: 0 auto;
+}
+#general-chat {
+    margin: 0;
+    text-align: center;
+    margin: 10px 0;
+}
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px; 
+}
+#messages {
+    overflow-x: hidden;
+    padding-left: 10px;
+    height: auto;
+    max-height: 70vh;
+    padding-right: 10px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); 
+}
+#admin-text {
+    color: #d16352;
+    font-weight: 550;
+}
+#user-profile-link {
+    text-decoration: none;
+    color: #737373;
+}
+#user-profile-link:hover {
+    text-decoration: underline;
+}
+.user-message {
+    display: flex;
+    z-index: -1;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+.active-user {
+    height: 10px;
+    width: 10px;
+    border: 2px solid #36393f;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -15px;
+}
+a:hover {
+    color: #aea7d8;
+}
+#profile-message-picture {
+    height: 27.5px;
+    width: 27.5px;
+    user-select: none;
+    border-radius: 25px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#timeS {
+    margin-top: 12.5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+}
+.time {
+    padding: 7.5px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+#message {
+    padding: 7.5px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    resize: none;
+    width:  97.5%;
+    border: none;
+    float: left;
+    outline: none;
+    background-color: #262626;
+    transition: .3s;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.date {
+    display: flex;
+}
+#nameUser {
+    margin-left: 55px;
+    flex: 1;
+    margin-bottom: 3.5px;
+}
+.date::after {
+    flex: 1;
+    content: '';
+}
+#all-message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.msj {
+    background-color: #333333;
+    color: #e8e6fe;
+    padding: 10px;
+    border-radius:20px;
+    margin-bottom: 8px;
+    width: fit-content;
+    transition: .2s;        
+    margin-left: 5px;
+}
+.content-messages {
+    padding: 5px 10px;
+    border-radius:5px;
+    margin-bottom: 8px;
+    width: fit-content;
+}
+.msj p{
+    margin: 0;
+    font-weight: bold;
+}
+#hidden-input {
+    display: none;
+}
+#text-send {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 14px;
+    position: relative;
+}
+form div {
+    display: flex;
+}
+input[type=image] {
+    border: 0;
+    width: 30px;
+    height: 30px;
+    filter: invert(8%) sepia(22%) saturate(17%) hue-rotate(330deg) brightness(103%) contrast(91%);
+    margin-top: 10px;
+    margin-right: 10px;
+}
