@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+.main-div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.secondary-div {
+    border-radius: 5px;
+    padding: 20px;
+    background: #303234;
+}
+body {
+    font-size: 18px;
+    background: #36393f;
+}
+#data-sended {
+    color: white;
+}
+#name {
+    display: flex;
+    align-items: left;
+}
+p {
+    margin: 0;
+}
+#profilePicture {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+#err_message {
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+#message {
+    margin-top: 10px;
+    padding: 5px;
+    background: #2e2f32;
+    color: white;
+    border-radius: 5px;
+}
+#opened {
+    border-radius: 10px;
+    background-color: #05822f;
+    padding: 7.5px;
+    color: white;
+    margin-left: 15px;
+}
+.ticket-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 25px;
+}
+h1 {
+    color: white;
+    margin: 0;
+}
+small {
+    margin: 0;
+}
+#comment {
+    border: 0px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(81, 82, 84);
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.user-button {
+    margin-left: 15px;
+}
+#form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#link-by-user {
+    color: white;
+}
+#link-by-user:hover {
+    color: black;
+    text-decoration: underline;
+}
+.user-button {
+	color: white;
+	background-color: #317699;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0;
+    transition: .2s;
+}
+.user-button:hover {
+    background: #053349;
+}
+a {
+	color: #099bd5;
+    transition: .2s;
+}
+a:hover {
+	color: #4a43d1;
+    text-decoration: underline;
+}
+.user-error {
+    display: flex;
+    justify-content: center;
+	color: lightgrey;
+	text-shadow: 0 0 1px #d12850;
+}
+.user-input {
+    border-radius: 5px;
+    padding: 7px;
+    border: 2px solid white;
+    width: 300px;
+    max-height: 100px;
+    transition: .3s;
+    font-size: 15px;
+    background: #313339;
+    color: white;
+    box-shadow: none;
+}
+.user-input:focus {
+    outline-offset: 0px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid black;
+    background-color: rgb(31, 32, 36);
+}
+.text div {
+    font-size: 22.5px;
+}
+h3 {
+    margin: 15px 0;
+    color: white;
+    font-size: 30px;
+}
+@media (max-width: 1000px) {
+    .ticket-info {
+        justify-content: center;
+    }
+}
+@media (max-width: 700px) {
+    .user-input {
+        width: 50vw;
+    }
+}
