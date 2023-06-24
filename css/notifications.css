@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+body {
+    font-size:18px;
+    background: #36393f;
+}
+.main-div {
+    color: white;
+}
+.secondary-div {
+    padding: 15px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondary-div span {
+    max-width: 300px;
+}
+.secondary-div #created_at {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
