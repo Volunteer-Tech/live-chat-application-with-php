@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    font-family: 'Simonetta', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background: #8693ac;
+}
+h2, ul {
+    margin: 0;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    background: #165552;
+    color: white;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+body {
+    text-align: center;
+}
+.terms {
+    padding: 20px;
+    margin: 20px;
+    background: #42515c;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+ul {
+    text-align: center;
+    list-style: inside;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: grey;
+}
